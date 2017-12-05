@@ -1,3 +1,5 @@
+"""Importamos las funciones al archivo principal"""
+
 from accesoCasosTexttest import accesoCasosTexttest
 from codigo_Ollivander import crearFicheroCasosTest, mostrarCasosTest
 
