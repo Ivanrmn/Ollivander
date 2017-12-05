@@ -3,7 +3,7 @@ def intAString(matrizCasosTest):
     los volvemos a pasar a string, para meterlos en el fichero de texto"""
 
     for linea in fichero:
-        if not linea.find("day") != -1 and not linea == "\n" and linea.find("name") != -1:
+        if linea.find("day") == -1 and linea != "\n" and linea.find("name") == -1:
             str(matrizCasosTest[1])
             str(matrizCasosTest[2])
             return matrizCasosTest
