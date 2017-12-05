@@ -23,8 +23,8 @@ def accesoCasosTexttest(matrizCasosTest, rutaAccesoFichero):
             elif linea.find("name") != -1:
                 numeroPropiedadesItem = len(linea.split(','))
             else:
-                int matrizCasosTest[1]
-                int matrizCasosTest[2]
+                int(matrizCasosTest[1])
+                int(matrizCasosTest[2])
                 item = linea.rstrip().rsplit(',', maxsplit=numeroPropiedadesItem - 1)
                 casosTestDia.append(item)
         fichero.close()
