@@ -1,3 +1,12 @@
+def intAString(matrizCasosTest):
+
+    for linea in fichero:
+        if not linea.find("day") != -1 and not linea == "\n" and linea.find("name") != -1:
+            str(matrizCasosTest[1])
+            str(matrizCasosTest[2])
+            return matrizCasosTest
+
+
 def crearFicheroCasosTest(ficheroVolcadoCasosTest, matrizCasosTest):
     """ """
 
@@ -21,4 +30,3 @@ def mostrarCasosTest(matrizCasosTest):
         print('-' * 5 + " Dia %d: " % offset + '-' * 5)
         for item in casosTestDia:
             print(item)
-
