@@ -12,6 +12,6 @@ if __name__ == "__main__":
 
     mostrarCasosTest(matrizCasosTest)
 
-    ficheroVolcadoCasosTest = "casos_test.txt"
+    ficheroVolcadoCasosTest = "stdout.txt"
 
     crearFicheroCasosTest(ficheroVolcadoCasosTest, matrizCasosTest)
